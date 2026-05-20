@@ -1,0 +1,104 @@
+/* BODY */
+body {
+    background-color: rgb(252, 240, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(87, 1, 1, 0.85);
+}
+
+/* NEGRITA (SALTA CAPITAL )*/
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* NAVBAR BOTONES (ARRIBA) */
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+/* NAVBAR BOTONES (COLORES) */
+.nav-link:hover {
+    color: rgb(255, 204, 180) !important;
+}
+
+
+/* ESPACIO (CONTENEDOR)*/
+.header-contacto {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 56px;
+    
+}
+
+/*CONTENEDOR */
+.overlay {
+    background-color: rgba(204, 90, 90, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* TITULO CONTENEDOR */
+.overlay h1 {
+    font-size: 70px;
+    font-family: "Brush Script MT", cursive;
+}
+
+/* CONTENEDOR DEL FORMULARIO */
+.form-section {
+    background-color: rgb(238, 217, 216);
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* TITULO DEL FORMULARIO*/
+.titulo-formulario {
+    font-weight: bold;
+    text-align: center;
+    color: rgba(87, 1, 1, 0.85);
+    margin-bottom: 40px;
+}
+
+/* TAMAÑO DEL IMPUT*/
+.form-control,
+.form-select {
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* BOTON ENVIAR*/
+.btn-contacto {
+    background-color: rgba(87, 1, 1, 0.85);
+    color: white;
+    border: none;
+    
+}
+
+/* COLOR AL PASAR EL MOUSE*/
+.btn-contacto:hover {
+    background-color: rgba(65, 8, 8, 0.95);
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgba(87, 1, 1, 0.85);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

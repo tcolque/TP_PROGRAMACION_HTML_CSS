@@ -1,0 +1,143 @@
+/* BODY */
+body{
+    background-color: rgb(252, 240, 234);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.menu-principal{
+    background-color: rgba(87, 1, 1, 0.85);
+    padding: 10px;
+}
+
+.logo-menu{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: rgb(255, 210, 180) !important;
+}
+
+/* CARRUSEL */
+.imagen-carrusel{
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+/* TEXTO DEL CARRUSEL */
+.fondo-texto-carrusel{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+
+.titulo-principal{
+    font-size: 70px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.texto-carrusel{
+    font-size: 22px;
+}
+
+/* SECCIONES */
+.seccion-bienvenida{
+    padding: 80px 0;
+}
+
+.seccion-tarjetas{
+    padding-bottom: 80px;
+}
+
+.seccion-video{
+    padding-bottom: 80px;
+}
+
+/* TITULOS */
+.titulo-seccion{
+    color: rgba(87, 1, 1, 0.85);
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* ESPACIO DEL TEXTO */
+.texto-bienvenida{
+    font-size: 18px;
+}
+
+/* BOTON DE (CONOCER MAS)  */
+.boton-principal{
+    background-color: rgba(87, 1, 1, 0.85);
+    border: none;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+/*BOTON CAMBIO DE COLOR */
+.boton-principal:hover{
+    background-color: rgba(65, 8, 8, 0.95);
+}
+
+/* IMAGEN BIENVENIDA */
+.imagen-bienvenida{
+    border-radius: 20px;
+}
+
+/* TARJETAS */
+.tarjeta-salta{
+    border: none;
+    border-radius: 20px;    
+    overflow: hidden;
+    transition: 0.4s;
+    background-color: rgb(238, 217, 216);
+}
+
+/*MOVIMIENTO DE TARJETAS*/
+.tarjeta-salta:hover{
+    transform: translateY(-10px);
+}
+
+.imagen-tarjeta{
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ICONOS */
+.icono-tarjeta{
+    font-size: 40px;
+    color: rgba(87, 1, 1, 0.85);
+}
+
+/* VIDEO */
+.video-salta{
+    width: 80%;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+.footer-principal{
+    background-color: rgba(87, 1, 1, 0.85);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* CONTENEDOR DE LA SECCION BIENVENIDA */
+.seccion-bienvenida{
+    background-color: rgb(238, 217, 216);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
