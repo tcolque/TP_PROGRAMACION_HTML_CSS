@@ -2,7 +2,7 @@
 
 Sitio web informativo sobre la ciudad de Salta Capital, desarrollado como proyecto práctico para la materia de Programación.
 
-## Descripción:
+## Descripción
 
 El objetivo de la página web es presentar información turística sobre Salta Capital mediante un sitio web moderno, organizado y responsive.
 
@@ -11,7 +11,7 @@ El sitio cuenta con tres páginas principales:
 - Información: lugares turísticos, tabla informativa, acordeón y mapa.
 - Contacto: formulario con validaciones utilizando HTML y JavaScript.
 
-## Las tecnologías utilizadas son:
+## Las tecnologías utilizadas son
 
 - HTML
 - CSS
