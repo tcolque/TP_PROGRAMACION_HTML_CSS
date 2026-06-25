@@ -46,6 +46,7 @@ git clone https://github.com/tcolque/TP_PROGRAMACION_HTML_CSS.git
 
 ## Estructura del proyecto
 
+```text
 TP_PROGRAMACION/
 │
 ├── Index.html
@@ -61,6 +62,7 @@ TP_PROGRAMACION/
 ├── Img/
 │
 └── README.md
+```
 
 ## Repositorio
 
