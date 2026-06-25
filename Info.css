@@ -2,6 +2,7 @@
 body {
     background-color: rgb(252, 240, 234);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* NAVBAR */
@@ -20,6 +21,7 @@ body {
 .nav-link {
     color: white !important;
     margin-left: 15px;
+    transition: 0.3s;
 }
 
 /* NAVBAR BOTONES (COLORES) */
@@ -64,6 +66,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     background-color: rgb(238, 217, 216);
+    transition: 0.4s;
 }
 
 .imagen-tarjeta {
@@ -71,14 +74,10 @@ body {
     object-fit: cover;
 }
 
-/*MOVIMIENTO DE TARJETAS*/
-.tarjeta-info {
-    transition: 0.4s;
-}
+/* MOVIMIENTO DE TARJETAS */
 .tarjeta-info:hover {
     transform: translateY(-10px);
 }
-
 
 /* PRIMERA FILA DE LA TABLA */
 .tabla-salta thead th {
@@ -115,7 +114,7 @@ body {
 
 /* MAPA */
 .mapa iframe {
-width: 100%;
+    width: 100%;
     height: 550px;
     border: 0;
     border-radius: 20px;
@@ -127,5 +126,9 @@ width: 100%;
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.footer-principal p{
+    margin: 0;
 }
 

@@ -2,6 +2,7 @@
 body {
     background-color: rgb(252, 240, 234);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* NAVBAR */
@@ -19,6 +20,7 @@ body {
 .nav-link {
     color: white !important;
     margin-left: 15px;
+    transition: 0.3s;
 }
 
 /* NAVBAR BOTONES (COLORES) */
@@ -63,6 +65,12 @@ body {
     border-radius: 20px;
     margin-top: 60px;
     margin-bottom: 60px;
+    transition: 0.3s;
+}
+
+/* MOVIMIENTO DEL FORMULARIO */
+.form-section:hover {
+    transform: translateY(-5px);
 }
 
 /* TITULO DEL FORMULARIO*/
@@ -73,7 +81,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* TAMAÑO DEL IMPUT*/
+/* TAMAÑO DEL INPUT*/
 .form-control,
 .form-select {
     background-color: white;
@@ -86,7 +94,7 @@ body {
     background-color: rgba(87, 1, 1, 0.85);
     color: white;
     border: none;
-    
+    transition: 0.3s;
 }
 
 /* COLOR AL PASAR EL MOUSE*/
@@ -95,10 +103,28 @@ body {
     color: white;
 }
 
+/* BOTÓN DEL OJITO */
+#btnMostrar {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#btnMostrar:focus {
+    box-shadow: none;
+}
+
+#btnMostrar i {
+    font-size: 18px;
+}
+
 /* FOOTER */
 footer {
     background-color: rgba(87, 1, 1, 0.85);
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+footer p {
+    margin: 0;
 }
