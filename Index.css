@@ -8,7 +8,7 @@ body{
 /* NAVBAR */
 .menu-principal{
     background-color: rgba(87, 1, 1, 0.85);
-    padding: 10px;
+    padding: 10px; 
 }
 
 .logo-menu{
@@ -63,11 +63,11 @@ body{
 .titulo-seccion{
     color: rgba(87, 1, 1, 0.85);
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: bold;
 }
 
-/* ESPACIO DEL TEXTO */
+/* TAMAÑO DEL TEXTO */
 .texto-bienvenida{
     font-size: 18px;
 }

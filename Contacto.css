@@ -70,7 +70,7 @@ body {
 
 /* MOVIMIENTO DEL FORMULARIO */
 .form-section:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 /* TITULO DEL FORMULARIO*/
